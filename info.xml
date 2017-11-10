@@ -1,26 +1,24 @@
 <?xml version="1.0"?>
 <extension key="org.yourconsortium.portal.civicrmmods" type="module">
   <file>civicrmmods</file>
-  <name>FIXME</name>
-  <description>FIXME</description>
+  <name>CiviCRM Mods</name>
+  <description>Modifications and overrides to CiviCRM Core</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Matthew Wire</author>
     <email>devel@mrwire.co.uk</email>
   </maintainer>
   <urls>
-    <url desc="Main Extension Page">http://FIXME</url>
-    <url desc="Documentation">http://FIXME</url>
-    <url desc="Support">http://FIXME</url>
+    <url desc="Main Extension Page">https://github.com/mattwire/org.yourconsortium.civicrmmods</url>
     <url desc="Licensing">http://www.gnu.org/licenses/agpl-3.0.html</url>
   </urls>
   <releaseDate>2017-11-10</releaseDate>
   <version>1.0</version>
-  <develStage>alpha</develStage>
+  <develStage>stable</develStage>
   <compatibility>
     <ver>4.7</ver>
   </compatibility>
-  <comments>This is a new, undeveloped module</comments>
+  <comments>Overrides to Core CiviCRM.  Currently overrides CRM/Case/BAO/CaseContact.php to workaround an issue in 4.7.27 which doesn't allow updating an existing case</comments>
   <civix>
     <namespace>CRM/Civicrmmods</namespace>
   </civix>
